@@ -35,3 +35,4 @@ next-env.d.ts
 
 # LookAhead local runtime data (sessions + stored photos) — never commit personal data
 /.data/
+.env*
