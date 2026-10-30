@@ -236,6 +236,11 @@ export function Header() {
                     on a shared YouCam API with limited credits. The pass reserves them for judges
                     and keeps open public use from exhausting them before judging is done.
                   </p>
+                  <p className="rounded-card border border-hairline bg-paper/70 px-3.5 py-3 text-xs leading-relaxed text-subtle">
+                    <span className="font-semibold text-body/80">Judges:</span> the access pass is
+                    included in the test description and has also been emailed to{" "}
+                    <span className="font-medium text-body/80">contact_event@PerfectCorp.com</span>.
+                  </p>
 
                   <form onSubmit={submitAccess} className="space-y-3" noValidate>
                     <label
